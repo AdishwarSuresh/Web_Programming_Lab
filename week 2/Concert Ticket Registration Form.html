@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Concert Ticket Registration Form</title>
+      <style>
+         .content {s
+            max-width: 500px;
+            margin-bottom: auto;
+         }
+      </style>
+   </head>
+     <body background="conc4.jpg">
+      <div class="content" style="
+      background-color: black;
+      opacity: 0.7;
+      width: 500px;
+      margin: 0px 0px 0px 500px;
+      color: white;
+      font-size: 14;
+      padding: 20px;
+      font-family: Comic Sans MS;
+      ">
+      <div class="content">
+      <h1 align="center">Book Tickets</h1>
+      <form >
+         Name: <input type = "text" name = "first_name" />
+         <br>
+         <br>
+         E-mail: <input type = "E-mail" name = "last_name" />
+         <br>
+         <br>
+         Phone number: <input type = "text" name = "first_name" />
+         <br>
+         <br>
+         <label for="Concert Date">Concert Date:</label>
+         <input type="date" id="date" name="date">
+         <br>
+         <br>
+         <div>Parking:  </div>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "Yes" value = "on"> Yes
+          <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "No" value = "on">No
+          <div>Age:</div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select name = "dropdown">
+            <option value = "18-24" selected>18-24</option>
+            <option value = "24-30">24-30</option>
+            <option value = "30-45">30-45</option>
+            <option value = "45-60">45-60</option>
+            <option value = "60+">60+</option>
+         </select>
+         <br>
+         <br>
+         <div>Seating options:  </div>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "Front Stage" value = "on"> Front Stage
+          <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "Middle" value = "on">Middle
+         <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "Balcony" value = "on">Balcony
+         <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type = "checkbox" name = "Other" value = "on">Other
+           <div>Number of tickets:</div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select name = "dropdown">
+            <option value = "1" selected>1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+         </select>
+         <br>
+         <br>
+         Any questions? <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter here...
+         </textarea>
+         <br>
+         <br>
+         <input type = "submit" name = "submit" value = "Submit" onclick="alert('Slot Booked Successfully!')" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+      </form>
+      </div>
+   </body>
+	
+</html>
